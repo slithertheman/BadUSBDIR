@@ -7,7 +7,7 @@ iwr https://github.com/I-Am-Jakoby/hak5-submissions/raw/main/OMG/Payloads/OMG-Ju
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://github.com/I-Am-Jakoby/hak5-submissions/blob/main/OMG/Payloads/OMG-JumpScare/female_scream.wav?raw=true"
+$wav = "https://github.com/slithertheman/BadUSBDIR/blob/main/fnaf-4-jumpscare-but-its-earrape.wav?raw=true"
 
 $w = -join($wav,"?dl=1")
 iwr $w -O $env:TMP\s.wav
