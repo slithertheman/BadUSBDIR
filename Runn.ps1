@@ -7,10 +7,10 @@ iwr https://github.com/slithertheman/BadUSBDIR/blob/main/Jumpscare.png?dl=1 -O $
 
 # Download WAV file; replace link to $wav to add your own sound
 
-$wav = "https://github.com/slithertheman/BadUSBDIR/blob/main/fnaf-4-jumpscare-but-its-earrape.wav?raw=true"
+$wav = "https://github.com/slithertheman/BadUSBDIR/blob/main/fnaf-4-jumpscare-but-its-earrape.wav"
 
 $w = -join($wav,"?dl=1")
-iwr $w -1 $env:TMP\s.wav
+iwr $w -0 $env:TMP\s.wav
 
 
 
