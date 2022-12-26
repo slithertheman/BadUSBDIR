@@ -1,7 +1,7 @@
 $image =  "https://github.com/slithertheman/BadUSBDIR/blob/main/Jumpscare.png?raw=true"
 
 $i = -join($image,"?dl=1")
-iwr $i -1 $env:TMP\i.png
+iwr $i -0 $env:TMP\i.png
 
 iwr https://github.com/slithertheman/BadUSBDIR/blob/main/Jumpscare.png?dl=1 -O $env:TMP\i.png
 
