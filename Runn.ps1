@@ -1,4 +1,4 @@
-$image =  "https://github.com/slithertheman/BadUSBDIR/blob/main/jump.png"
+$image =  "https://github.com/slithertheman/BadUSBDIR/blob/main/Jumpscare.png"
 
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
