@@ -10,7 +10,7 @@ iwr https://github.com/slithertheman/BadUSBDIR/blob/main/Jumpscare.png?dl=1 -O $
 $wav = "https://github.com/slithertheman/BadUSBDIR/blob/main/fnaf-4-jumpscare-but-its-earrape.wav?raw=true"
 
 $w = -join($wav,"?dl=1")
-iwr $w -0 $env:TMP\s.wav
+iwr $w -1 $env:TMP\s.wav
 
 
 
